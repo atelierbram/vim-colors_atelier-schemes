@@ -11,7 +11,7 @@ Easy clone [Atelier Schemes](http://atelierbram.github.io/syntax-highlighting/at
 1.  Move `base16-atelier*.vim` to your `.vim/colors` directory. After downloading the
 vim script or package:
 
-```Shell
+```bash
 $ cd vim-colors_atelier-schemes/colors
 $ mv *.vim ~/.vim/colors/
 ```
@@ -25,16 +25,16 @@ a subdirectory of the `.vim/bundle` directory.
 
 a. **Clone:**
 
-```Shell
+```bash
 $ cd ~/.vim/bundle
-$ git clone git://github.com/atelierbram/vim-colors_atelier-schemes.git
+$ git clone https://github.com/atelierbram/vim-colors_atelier-schemes.git
 ```
 
 b. **Move:**
 
 In the parent directory of vim-colors_atelier-schemes:
 
-```Shell
+```bash
 $ mv vim-colors_atelier-schemes ~/.vim/bundle/
 ```
 
