@@ -1,5 +1,7 @@
 # Atelier Schemes for Vim
 
+[Pathogen]: https://github.com/tpope/vim-pathogen
+
 Easy clone [Atelier Schemes](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/ "colorschemes, made with Base16 Builder") for Vim colorschemes, with plugin manager [Pathogen].
 
 ## Installation
