@@ -48,12 +48,13 @@ syntax enable
 set background=dark
 " or, for the light background mode:
 " set background=light
-colorscheme base16-atelierdune.vim
+colorscheme base16-atelierdune
 " or any of the other schemes:
-" colorscheme base16-atelierforest.vim
-" colorscheme base16-atelierheath.vim
-" colorscheme base16-atelierlakeside.vim
-" colorscheme base16-atelierseaside.vim
+" colorscheme base16-atelierforest
+" colorscheme base16-atelierheath
+" colorscheme base16-atelierlakeside
+" colorscheme base16-atelierseaside
+" colorscheme base16-ateliersulpherpool
 ```
 
 ### License
