@@ -14,3 +14,13 @@
     - base0B changed from #379a37 to #918b3b;
 
 
+## 2015-15-03
+
+- changed value for yellow on Sulperpool from #a38d20 to #c08b30
+- changed value for green on Sulperpool from #a89648 to #a89648
+- changed value for orange on Sulpherpool from #b26624 to #c76b29
+
+- changed value for yellow on Dune from #cfb017 to #ae9513
+- changed value for yellow on Seaside from #c3c322 to #98981b
+- changed value for base07 on Seaside from #f0fff0 to #f4fbf4
+
