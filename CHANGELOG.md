@@ -20,7 +20,9 @@
 - changed value for green on Sulperpool from #a89648 to #a89648
 - changed value for orange on Sulpherpool from #b26624 to #c76b29
 
-- changed value for yellow on Dune from #cfb017 to #ae9513
-- changed value for yellow on Seaside from #c3c322 to #98981b
-- changed value for base07 on Seaside from #f0fff0 to #f4fbf4
+- changed value for yellow on Dune from #cfb017 to #ae9513 (_slightly darker yellow_)
+- changed value for yellow on Seaside from #c3c322 to #98981b (_slightly darker yellow_)
+- changed value for base07 on Seaside from #f0fff0 to #f4fbf4 (_less saturated light green_)
+
+- changed value for base0E on Lakeside from #5d5db1 to #6b6bb8 (_slightly lighter violet_)
 
