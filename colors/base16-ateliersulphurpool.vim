@@ -1,4 +1,4 @@
-" Base16 Atelier Sulpherpool (https://github.com/chriskempson/base16)
+" Base16 Atelier Sulphurpool (https://github.com/chriskempson/base16)
 " Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulperpool)
 
 " This enables the coresponding base16-shell script to run so that
@@ -7,7 +7,7 @@
 "   let g:base16_shell_path=base16-builder/output/shell/
 if !has('gui_running')
   if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-ateliersulpherpool.".&background.".sh"
+    execute "silent !/bin/sh ".g:base16_shell_path."/base16-ateliersulphurpool.".&background.".sh"
   endif
 endif
 
@@ -59,7 +59,7 @@ endif
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "base16-ateliersulpherpool"
+let g:colors_name = "base16-ateliersulphurpool"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr)
