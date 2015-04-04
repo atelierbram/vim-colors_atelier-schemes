@@ -48,18 +48,23 @@ syntax enable
 set background=dark
 " or, for the light background mode:
 " set background=light
-colorscheme base16-atelierdune
+" colorscheme base16-atelierdune
 " or any of the other schemes:
 " colorscheme base16-atelierforest
+" colorscheme base16-atelierplateau
 " colorscheme base16-atelierheath
+" colorscheme base16-ateliercave
+colorscheme base16-ateliersulphurpool
 " colorscheme base16-atelierlakeside
+" colorscheme base16-ateliersavanna
 " colorscheme base16-atelierseaside
-" colorscheme base16-ateliersulpherpool
+" colorscheme base16-atelierdune
+" colorscheme base16-atelierestuary
 ```
 
 ### License
 
-Copyright (c) 2013 [Bram de Haan](http://atelierbramdehaan.nl)
+Copyright (c) 2013 - 2015 [Bram de Haan](http://atelierbramdehaan.nl)
 
 Released under [MIT Licence](http://atelierbram.mit-license.org)
 
