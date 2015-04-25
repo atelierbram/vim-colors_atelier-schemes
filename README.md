@@ -1,6 +1,39 @@
 # Atelier Schemes for Vim
 
-[Pathogen]: https://github.com/tpope/vim-pathogen
+![screenshot of Sulphurpool colorscheme - dark version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/sulphurpool-dark_vim_640x425.png)
+
+## [Atelier Schemes](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/)
+- [Forest](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest)
+    -  [screenshot - dark version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/forest-dark_vim_640x425.png)
+    -  [screenshot - light version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/forest-light_vim_640x425.png)
+- [Plateau](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau)
+    -  [screenshot - dark version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/plateau-dark_vim_640x425.png)
+    -  [screenshot - light version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/plateau-light_vim_640x425.png)
+- [Heath](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath)
+    -  [screenshot - dark version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/heath-dark_vim_640x425.png)
+    -  [screenshot - light version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/heath-light_vim_640x425.png)
+- [Cave](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave)
+    -  [screenshot - dark version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/cave-dark_vim_640x425.png)
+    -  [screenshot - light version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/cave-light_vim_640x425.png)
+- [Sulphurpool](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool)
+    -  [screenshot - dark version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/sulphurpool-dark_vim_640x425.png)
+    -  [screenshot - light version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/sulphurpool-light_vim_640x425.png)
+- [Lakeside](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside)
+    -  [screenshot - dark version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/lakeside-dark_vim_640x425.png)
+    -  [screenshot - light version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/lakeside-light_vim_640x425.png)
+- [Savanna](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna)
+    -  [screenshot - dark version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/savanna-dark_vim_640x425.png)
+    -  [screenshot - light version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/savanna-light_vim_640x425.png)
+- [Seaside](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside)
+    -  [screenshot - dark version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/seaside-dark_vim_640x425.png)
+    -  [screenshot - light version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/seaside-light_vim_640x425.png)
+- [Estuary](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary)
+    -  [screenshot - dark version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/estuary-dark_vim_640x425.png)
+    -  [screenshot - light version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/estuary-light_vim_640x425.png)
+- [Dune](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)
+    -  [screenshot - dark version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/dune-dark_vim_640x425.png)
+    -  [screenshot - light version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/dune-light_vim_640x425.png)
+
 
 Easy clone [Atelier Schemes](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/ "colorschemes, made with Base16 Builder") for Vim colorschemes, with plugin manager [Pathogen].
 
@@ -68,3 +101,4 @@ Copyright (c) 2013 - 2015 [Bram de Haan](http://atelierbramdehaan.nl)
 
 Released under [MIT Licence](http://atelierbram.mit-license.org)
 
+[Pathogen]: https://github.com/tpope/vim-pathogen
