@@ -1,6 +1,7 @@
 # Atelier Schemes for Vim
 
 ![screenshot of Sulphurpool colorscheme - dark version - in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/sulphurpool-dark_vim_640x425.png)
+screenshot of Sulphurpool (dark version) in Vim
 
 ## [Atelier Schemes](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/)
 - [Forest](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest)
