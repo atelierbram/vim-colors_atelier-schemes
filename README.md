@@ -158,6 +158,10 @@ let g:airline_theme='Atelier_ForestDark'
 " let g:airline_theme='Atelier_EstuaryLight'
 " let g:airline_theme='Atelier_DuneLight'
 ```
+### Credits
+Credits to [Ethan Schoonover](http://ethanschoonover.com/solarized) whose [Solarized](http://github.com/altercation/solarized) was a model for these colorschemes
+- [Chis Kempson](http://github.com/chriskempson) for creating [Base16 Builder](http://http://github.com/chriskempson/base16-builder)
+- [Alois](https://github.com/aloisdg) and [Alex Booker](https://github.com/bookercodes) for rejuvenating the best colorscheme builder tool on the internet: [Base16 Builder](https://github.com/base16-builder/base16-builder)
 
 ### License
 

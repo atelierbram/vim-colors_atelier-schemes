@@ -1,5 +1,12 @@
 # Change Log
 
+## 2017-22-01
+### Changed
+- added support for [Airline](https://github.com/vim-airline/vim-airline)
+- some minor tweaks, like a little less contrast for brackets and other noise
+- renaming of files from `base16-atelier<scheme>` to `Atelier_<scheme>Dark `.
+- added templating files from the new [base16-builder](https://github.com/base16-builder/base16-builder)
+
 ## 2015-14-03
 ### Changed
 - added Sulphurpool colorscheme: based on blue-purple
