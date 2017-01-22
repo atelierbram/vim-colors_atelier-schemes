@@ -3,6 +3,28 @@
 ![screenshot of Sulphurpool colorscheme - dark version in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/sulphurpool-dark_vim_640x425.png)
 screenshot of Sulphurpool (dark version) in Vim
 
+**NOTE**: The file-names for the colorschemes of AtelierSchemes for Vim, which now come with support for [Airline](https://github.com/vim-airline/vim-airline) have been renamed from `base16-atelier<scheme>` to `Atelier_<scheme>Dark `.
+
+So instead of defining in vimrc:
+
+```
+colorscheme base16-atelierforest
+```
+
+it is now:
+
+```
+colorscheme Atelier_ForestDark
+
+or
+
+colorscheme Atelier_ForestLight
+```
+
+I'm sorry for any inconvenience.
+
+***   ***   ***   ***   ***   ***   ***   ***   ***
+
 **NOTE**: These color schemes are optimized and have been tested in the _GUI_ version of Vim, and _not_ the terminal version. For a more seamless experience: these same color schemes have also been [ported to iTerm2](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output/iterm2).
 
 
@@ -85,23 +107,61 @@ syntax enable
 set background=dark
 " or, for the light background mode:
 " set background=light
-" colorscheme base16-atelierdune
+
+" dark
+colorscheme Atelier_ForestDark
 " or any of the other schemes:
-" colorscheme base16-atelierforest
-" colorscheme base16-atelierplateau
-" colorscheme base16-atelierheath
-" colorscheme base16-ateliercave
-colorscheme base16-ateliersulphurpool
-" colorscheme base16-atelierlakeside
-" colorscheme base16-ateliersavanna
-" colorscheme base16-atelierseaside
-" colorscheme base16-atelierdune
-" colorscheme base16-atelierestuary
+" colorscheme Atelier_HeathDark
+" colorscheme Atelier_CaveDark
+" colorscheme Atelier_SulphurpoolDark
+" colorscheme Atelier_LakesideDark
+" colorscheme Atelier_SavannaDark
+" colorscheme Atelier_SeasideDark
+" colorscheme Atelier_EstuaryDark
+" colorscheme Atelier_DuneDark
+
+" light
+" colorscheme Atelier_ForestLight
+" colorscheme Atelier_HeathLight
+" colorscheme Atelier_CaveLight
+" colorscheme Atelier_SulphurpoolLight
+" colorscheme Atelier_LakesideLight
+" colorscheme Atelier_SavannaLight
+" colorscheme Atelier_SeasideLight
+" colorscheme Atelier_EstuaryLight
+" colorscheme Atelier_DuneLight
+```
+
+### Airline Support with AtelierSchemes
+```vim
+" Airline for AtelierSchemes
+" dark
+let g:airline_theme='Atelier_ForestDark'
+" or any of the other themes:
+" let g:airline_theme='Atelier_HeathDark'
+" let g:airline_theme='Atelier_CaveDark'
+" let g:airline_theme='Atelier_SulphurpoolDark'
+" let g:airline_theme='Atelier_LakesideDark'
+" let g:airline_theme='Atelier_SavannaDark'
+" let g:airline_theme='Atelier_SeasideDark'
+" let g:airline_theme='Atelier_EstuaryDark'
+" let g:airline_theme='Atelier_DuneDark'
+
+" light
+" let g:airline_theme='Atelier_ForestLight'
+" let g:airline_theme='Atelier_HeathLight'
+" let g:airline_theme='Atelier_CaveLight'
+" let g:airline_theme='Atelier_SulphurpoolLight'
+" let g:airline_theme='Atelier_LakesideLight'
+" let g:airline_theme='Atelier_SavannaLight'
+" let g:airline_theme='Atelier_SeasideLight'
+" let g:airline_theme='Atelier_EstuaryLight'
+" let g:airline_theme='Atelier_DuneLight'
 ```
 
 ### License
 
-Copyright (c) 2013 - 2015 [Bram de Haan](http://atelierbramdehaan.nl)
+Copyright (c) 2013  - 2017 [Bram de Haan](http://atelierbramdehaan.nl)
 
 Released under [MIT Licence](http://atelierbram.mit-license.org)
 
