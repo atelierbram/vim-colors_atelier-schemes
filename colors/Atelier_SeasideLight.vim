@@ -7,7 +7,7 @@
 "   let g:base16_shell_path=base16-builder/output/shell/
 if !has('gui_running')
   if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/Atelier_SeasideDark.".&background.".sh"
+    execute "silent !/bin/sh ".g:base16_shell_path."/Atelier_SeasideLight.".&background.".sh"
   endif
 endif
 
@@ -30,36 +30,36 @@ let s:gui0E = "ad2bee"
 let s:gui0F = "e619c3"
 
 " Terminal color definitions
-let s:cterm00 = "00"
-let s:cterm03 = "08"
-let s:cterm05 = "07"
-let s:cterm07 = "15"
-let s:cterm08 = "01"
-let s:cterm0A = "03"
-let s:cterm0B = "02"
-let s:cterm0C = "06"
-let s:cterm0D = "04"
-let s:cterm0E = "05"
+let s:cterm00 = "233   "
+let s:cterm03 = "244   "
+let s:cterm05 = "249   "
+let s:cterm07 = "231   "
+let s:cterm08 = "160   "
+let s:cterm0A = "136   "
+let s:cterm0B = "34    "
+let s:cterm0C = "31    "
+let s:cterm0D = "69    "
+let s:cterm0E = "67    "
 if exists('base16colorspace') && base16colorspace == "256"
-  let s:cterm01 = "18"
-  let s:cterm02 = "19"
-  let s:cterm04 = "20"
-  let s:cterm06 = "21"
-  let s:cterm09 = "16"
-  let s:cterm0F = "17"
+  let s:cterm01 = "235   "
+  let s:cterm02 = "242   "
+  let s:cterm04 = "246   "
+  let s:cterm06 = "254   "
+  let s:cterm09 = "94    "
+  let s:cterm0F = "129   "
 else
-  let s:cterm01 = "10"
-  let s:cterm02 = "11"
-  let s:cterm04 = "12"
-  let s:cterm06 = "13"
-  let s:cterm09 = "09"
-  let s:cterm0F = "14"
+  let s:cterm01 = "235   "
+  let s:cterm02 = "242   "
+  let s:cterm04 = "246   "
+  let s:cterm06 = "254   "
+  let s:cterm09 = "94    "
+  let s:cterm0F = "129   "
 endif
 
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "Atelier_SeasideDark"
+let g:colors_name = "Atelier_SeasideLight"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
