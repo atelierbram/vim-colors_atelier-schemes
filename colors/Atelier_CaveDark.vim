@@ -116,23 +116,23 @@ fun s:cterm(color)
     return a:color
   endif
 
-  if a:color == s:cterm00
-    return s:cterm07
-  elseif a:color == s:cterm01
-    return s:cterm06
-  elseif a:color == s:cterm02
-    return s:cterm05
-  elseif a:color == s:cterm03
-    return s:cterm04
-  elseif a:color == s:cterm04
-    return s:cterm03
-  elseif a:color == s:cterm05
-    return s:cterm02
-  elseif a:color == s:cterm06
-    return s:cterm01
-  elseif a:color == s:cterm07
-    return s:cterm00
-  endif
+"  if a:color == s:cterm00
+"    return s:cterm07
+"  elseif a:color == s:cterm01
+"    return s:cterm06
+"  elseif a:color == s:cterm02
+"    return s:cterm05
+"  elseif a:color == s:cterm03
+"    return s:cterm04
+"  elseif a:color == s:cterm04
+"    return s:cterm03
+"  elseif a:color == s:cterm05
+"    return s:cterm02
+"  elseif a:color == s:cterm06
+"    return s:cterm01
+"  elseif a:color == s:cterm07
+"    return s:cterm00
+"  endif
 
   return a:color
 endfun
