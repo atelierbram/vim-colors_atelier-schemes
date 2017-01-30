@@ -1,5 +1,9 @@
 # Change Log
 
+## 2017-29-01
+### Changed
+- added support for Xterm 256-color Terminals by picking colors in the [8-bit 256 colorspace](https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg) which were as-close-as-possible to the originals.
+
 ## 2017-22-01
 ### Changed
 - added support for [Airline](https://github.com/vim-airline/vim-airline)
