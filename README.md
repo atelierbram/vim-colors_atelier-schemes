@@ -25,7 +25,8 @@ I'm sorry for any inconvenience.
 ![screenshot of Sulphurpool colorscheme - dark version in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/sulphurpool-dark_vim_640x425.png)
 <br>screenshot of Sulphurpool (dark version) in Vim
 
-**NOTE**: These color schemes are optimized and have been tested in the _GUI_ version of Vim, <del>and _not_ the terminal version</del>. For terminals which don’t support truecolor the colors will now use converted colors which are as close as possible in the 8-bit 256 colorspace. For the most seamless experience: these same color schemes have also been [ported to iTerm2](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output/iterm2).
+**NOTE**: These color schemes are optimized and have been tested in the _GUI_ version of Vim, <del>and _not_ the terminal version</del>. For terminals which don’t support truecolor the colors will now use converted colors which are as close as possible in the 8-bit 256 colorspace. It will work fine in Hyper terminal.
+For the most seamless experience: these same color schemes have also been [ported to iTerm2](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output/iterm2), and for Hyper there is one: [AtelierSulphurpool-Dark for Hyper](https://github.com/atelierbram/hyperterm-atelier-sulphurpool-dark).
 
 ## [Atelier Schemes](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/)
 - [Forest](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest)
