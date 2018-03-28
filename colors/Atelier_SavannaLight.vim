@@ -337,7 +337,7 @@ call <sid>hi("SpellRare",    "", s:gui00, "", s:cterm00, "undercurl", s:gui0E)
 " neovim terminal
 if has('nvim') 
 hi! link TermCursor Cursor
-hi TermCursorNC ctermfg=231    ctermbg=235    guifg=s:gui07 guibg=s:gui01 guisp=NONE cterm=NONE gui=NONE
+hi TermCursorNC ctermfg=240    ctermbg=30     guifg=s:gui02 guibg=s:gui0c guisp=NONE cterm=NONE gui=NONE
   let g:terminal_color_0  = "#" . s:gui00
   let g:terminal_color_1  = "#" . s:gui01
   let g:terminal_color_2  = "#" . s:gui02
