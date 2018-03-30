@@ -1,31 +1,19 @@
 # Atelier Schemes for Vim
 
-**NOTE**: The file-names for the colorschemes of AtelierSchemes for Vim, which now come with support for [Airline](https://github.com/vim-airline/vim-airline) have been renamed from `base16-atelier<scheme>` to `Atelier_<scheme>Dark `.
-
-So instead of defining in vimrc:
-
-```
-colorscheme base16-atelierforest
-```
-
-it is now:
-
-```
-colorscheme Atelier_ForestDark
-
-or
-
-colorscheme Atelier_ForestLight
-```
-
-I'm sorry for any inconvenience.
-
-***   ***   ***   ***   ***   ***   ***   ***   ***
-
 ![screenshot of Sulphurpool colorscheme - dark version in Vim](http://atelierbram.github.io/syntax-highlighting/assets/img/sulphurpool-dark_vim_640x425.png)
 <br>screenshot of Sulphurpool (dark version) in Vim
 
-**NOTE**: These color schemes are optimized and have been tested in the _GUI_ version of Vim, <del>and _not_ the terminal version</del>. For terminals which don’t support truecolor the colors will now use converted colors which are as close as possible in the 8-bit 256 colorspace. It will work fine in Hyper terminal.
+**NOTE**: These color schemes are optimized and have been tested in the _GUI_ version of Vim, and will work in terminal versions as well. For terminals which don’t support truecolor the colors will now use converted colors which are as close as possible in the 8-bit 256 colorspace. It works  fine and looks good in Neovim, for the Gui colors for Neovim are now also specifically defined.
+For Terminal Vim 8+ and/or Neovim, in your (sourced) `.vimrc` or default `.config/nvim/init.vim`, have something like this:
+
+```bash
+set termguicolors
+ if has('nvim')
+" https://github.com/neovim/neovim/wiki/FAQ
+set guicursor=n-v-c:block-Cursor/lCursor-blinkon0,i-ci:ver25-Cursor/lCursor,r-cr:hor20-Cursor/lCursor
+endif
+```
+
 For the most seamless experience: these same color schemes have also been [ported to iTerm2](https://github.com/atelierbram/syntax-highlighting/tree/master/atelier-schemes/output/iterm2), and for Hyper there is one: [AtelierSulphurpool-Dark for Hyper](https://github.com/atelierbram/hyperterm-atelier-sulphurpool-dark).
 
 ## [Atelier Schemes](http://atelierbram.github.io/syntax-highlighting/atelier-schemes/)
@@ -75,7 +63,23 @@ $ cd vim-colors_atelier-schemes/colors
 $ mv *.vim ~/.vim/colors/
 ```
 
-### Option 2: Pathogen installation ***(recommended)***
+### Option 2: for Vim 8+ installation in default pack/start folder of build-in package manager
+```bash
+$ cd ~/.vim/pack/bundle/start
+$ git clone https://github.com/atelierbram/vim-colors_atelier-schemes.git
+```
+
+### Option 3: for Vim 8+ and Neovim installation with minpac _recommended_
+
+1. Install [minpac plugin](https://github.com/k-takata/minpac)
+2. in `.vimrc`:
+
+```bash
+call minpac#add('k-takata/minpac', {'type': 'opt'})
+call minpac#add('atelierbram/vim-colors_atelier-schemes')
+```
+
+### Option 3: Pathogen installation
 
 1.  Download and install Tim Pope's [Pathogen].
 
