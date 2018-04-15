@@ -45,6 +45,17 @@ overwrite_to_file()
   base16-builder --scheme "db/schemes/atelier-sulphurpool.yml" --template "db/templates/vim-airline/dark.ejs" > "autoload/airline/themes/Atelier_SulphurpoolDark.vim"
   base16-builder --scheme "db/schemes/atelier-sulphurpool.yml" --template "db/templates/vim-airline/light.ejs" > "autoload/airline/themes/Atelier_SulphurpoolLight.vim"
 
+  base16-builder --scheme "db/schemes/atelier-cave.yml" --template "db/templates/lightline/template.ejs" > "autoload/lightline/colorscheme/Atelier_Cave.vim"
+  base16-builder --scheme "db/schemes/atelier-dune.yml" --template "db/templates/lightline/template.ejs" > "autoload/lightline/colorscheme/Atelier_Dune.vim"
+  base16-builder --scheme "db/schemes/atelier-estuary.yml" --template "db/templates/lightline/template.ejs" > "autoload/lightline/colorscheme/Atelier_Estuary.vim"
+  base16-builder --scheme "db/schemes/atelier-forest.yml" --template "db/templates/lightline/template.ejs" > "autoload/lightline/colorscheme/Atelier_Forest.vim"
+  base16-builder --scheme "db/schemes/atelier-heath.yml" --template "db/templates/lightline/template.ejs" > "autoload/lightline/colorscheme/Atelier_Heath.vim"
+  base16-builder --scheme "db/schemes/atelier-lakeside.yml" --template "db/templates/lightline/template.ejs" > "autoload/lightline/colorscheme/Atelier_Lakeside.vim"
+  base16-builder --scheme "db/schemes/atelier-plateau.yml" --template "db/templates/lightline/template.ejs" > "autoload/lightline/colorscheme/Atelier_Plateau.vim"
+  base16-builder --scheme "db/schemes/atelier-savanna.yml" --template "db/templates/lightline/template.ejs" > "autoload/lightline/colorscheme/Atelier_Savanna.vim"
+  base16-builder --scheme "db/schemes/atelier-seaside.yml" --template "db/templates/lightline/template.ejs" > "autoload/lightline/colorscheme/Atelier_Seaside.vim"
+  base16-builder --scheme "db/schemes/atelier-sulphurpool.yml" --template "db/templates/lightline/template.ejs" > "autoload/lightline/colorscheme/Atelier_Sulphurpool.vim"
+
  }
 
 # execute it

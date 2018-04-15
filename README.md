@@ -136,7 +136,7 @@ colorscheme Atelier_ForestDark
 " colorscheme Atelier_DuneLight
 ```
 
-### Airline Support with AtelierSchemes
+### [Airline](https://github.com/vim-airline/vim-airline) Support with AtelierSchemes
 ```vim
 " Airline for AtelierSchemes
 " dark
@@ -162,6 +162,20 @@ let g:airline_theme='Atelier_ForestDark'
 " let g:airline_theme='Atelier_EstuaryLight'
 " let g:airline_theme='Atelier_DuneLight'
 ```
+
+### [Lightline](https://github.com/itchyny/lightline.vim) Support with AtelierSchemes
+```vim
+" lightline {{{
+" -- INSERT -- is redundant because the mode information is displayed in the statusline:
+set noshowmode
+let g:lightline = {
+      \ 'colorscheme': 'Atelier_Estuary',
+      \ }
+" or any of the other colorschemes
+" template is smart and detects light or dark colorscheme being used
+" }}}
+```
+
 ### Credits
 Credits to [Ethan Schoonover](http://ethanschoonover.com/solarized) whose [Solarized](http://github.com/altercation/solarized) was a model for these colorschemes
 - [Chis Kempson](http://github.com/chriskempson) for creating [Base16 Builder](http://http://github.com/chriskempson/base16-builder)

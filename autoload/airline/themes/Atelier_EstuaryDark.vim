@@ -1,5 +1,5 @@
 scriptencoding utf-8
-" Atelier_EstuaryDark (https://github.com/atelierbram/Base2Tone-vim-airline)
+" Atelier_EstuaryDark (https://github.com/atelierbram/Base2Tone-vim/tree/master/autoload/airline/themes)
 " Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary)
 
 let g:airline#themes#Atelier_EstuaryDark#palette = {}

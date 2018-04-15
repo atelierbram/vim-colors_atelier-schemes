@@ -1,5 +1,5 @@
 scriptencoding utf-8
-" Atelier_HeathLight (https://github.com/atelierbram/Base2Tone-vim-airline)
+" Atelier_HeathLight (https://github.com/atelierbram/Base2Tone-vim/tree/master/autoload/airline/themes)
 " Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath)
 
 let g:airline#themes#Atelier_HeathLight#palette = {}
