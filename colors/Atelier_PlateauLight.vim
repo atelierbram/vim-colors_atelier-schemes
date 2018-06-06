@@ -338,14 +338,14 @@ call <sid>hi("SpellRare",    "", s:gui00, "", s:cterm00, "undercurl", s:gui0E)
 if has('nvim') 
 hi! link TermCursor Cursor
 hi TermCursorNC ctermfg=240    ctermbg=67     guifg=s:gui02 guibg=s:gui0c guisp=NONE cterm=NONE gui=NONE
-  let g:terminal_color_0  = "#" . s:gui00
-  let g:terminal_color_1  = "#" . s:gui01
-  let g:terminal_color_2  = "#" . s:gui02
+  let g:terminal_color_0  = "#" . s:gui07
+  let g:terminal_color_1  = "#" . s:gui0F
+  let g:terminal_color_2  = "#" . s:gui05
   let g:terminal_color_3  = "#" . s:gui03
   let g:terminal_color_4  = "#" . s:gui04
-  let g:terminal_color_5  = "#" . s:gui05
-  let g:terminal_color_6  = "#" . s:gui06
-  let g:terminal_color_7  = "#" . s:gui07
+  let g:terminal_color_5  = "#" . s:gui02
+  let g:terminal_color_6  = "#" . s:gui01
+  let g:terminal_color_7  = "#" . s:gui00
   let g:terminal_color_8  = "#" . s:gui08
   let g:terminal_color_9  = "#" . s:gui09
   let g:terminal_color_10 = "#" . s:gui0A
@@ -353,7 +353,7 @@ hi TermCursorNC ctermfg=240    ctermbg=67     guifg=s:gui02 guibg=s:gui0c guisp=
   let g:terminal_color_12 = "#" . s:gui0C
   let g:terminal_color_13 = "#" . s:gui0D
   let g:terminal_color_14 = "#" . s:gui0E
-  let g:terminal_color_15 = "#" . s:gui0F
+  let g:terminal_color_15 = "#" . s:gui01
 endif
 
 " Remove functions
