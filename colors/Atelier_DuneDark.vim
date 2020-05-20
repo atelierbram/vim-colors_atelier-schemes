@@ -83,57 +83,13 @@ fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
   endif
 endfun
 
-" Return GUI color for light/dark variants
+" Return GUI colorfor light/dark variants
 fun s:gui(color)
-  if &background == "dark"
-    return a:color
-  endif
-
-  if a:color == s:gui00
-    return s:gui07
-  elseif a:color == s:gui01
-    return s:gui06
-  elseif a:color == s:gui02
-    return s:gui05
-  elseif a:color == s:gui03
-    return s:gui04
-  elseif a:color == s:gui04
-    return s:gui03
-  elseif a:color == s:gui05
-    return s:gui02
-  elseif a:color == s:gui06
-    return s:gui01
-  elseif a:color == s:gui07
-    return s:gui00
-  endif
-
   return a:color
 endfun
 
-" Return terminal color for light/dark variants
+" Return terminal color
 fun s:cterm(color)
-  if &background == "dark"
-    return a:color
-  endif
-
-"  if a:color == s:cterm00
-"    return s:cterm07
-"  elseif a:color == s:cterm01
-"    return s:cterm06
-"  elseif a:color == s:cterm02
-"    return s:cterm05
-"  elseif a:color == s:cterm03
-"    return s:cterm04
-"  elseif a:color == s:cterm04
-"    return s:cterm03
-"  elseif a:color == s:cterm05
-"    return s:cterm02
-"  elseif a:color == s:cterm06
-"    return s:cterm01
-"  elseif a:color == s:cterm07
-"    return s:cterm00
-"  endif
-
   return a:color
 endfun
 

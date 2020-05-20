@@ -12,14 +12,14 @@ if !has('gui_running')
 endif
 
 " GUI color definitions
-let s:gui00 = "171c19"
-let s:gui01 = "232a25"
-let s:gui02 = "526057"
-let s:gui03 = "5f6d64"
-let s:gui04 = "78877d"
-let s:gui05 = "87928a"
-let s:gui06 = "dfe7e2"
-let s:gui07 = "ecf4ee"
+let s:gui00 = "ecf4ee"
+let s:gui01 = "dfe7e2"
+let s:gui02 = "87928a"
+let s:gui03 = "78877d"
+let s:gui04 = "5f6d64" 
+let s:gui05 = "526057" 
+let s:gui06 = "232a25" 
+let s:gui07 = "171c19"
 let s:gui08 = "b16139"
 let s:gui09 = "9f713c"
 let s:gui0A = "a07e3b"
@@ -30,10 +30,10 @@ let s:gui0E = "55859b"
 let s:gui0F = "867469"
 
 " Terminal color definitions
-let s:cterm00 = "234   "
-let s:cterm03 = "242   "
-let s:cterm05 = "246   "
-let s:cterm07 = "231   "
+let s:cterm00 = "231   "
+let s:cterm03 = "245   "
+let s:cterm05 = "240   "
+let s:cterm07 = "234   "
 let s:cterm08 = "131   "
 let s:cterm0A = "136   "
 let s:cterm0B = "65    "
@@ -41,17 +41,17 @@ let s:cterm0C = "30    "
 let s:cterm0D = "66    "
 let s:cterm0E = "67    "
 if exists('base16colorspace') && base16colorspace == "256"
-  let s:cterm01 = "235   "
-  let s:cterm02 = "240   "
-  let s:cterm04 = "245   "
-  let s:cterm06 = "254   "
+  let s:cterm01 = "254   "
+  let s:cterm02 = "246   "
+  let s:cterm04 = "242   "
+  let s:cterm06 = "235   "
   let s:cterm09 = "130   "
   let s:cterm0F = "95    "
 else
-  let s:cterm01 = "235   "
-  let s:cterm02 = "240   "
-  let s:cterm04 = "245   "
-  let s:cterm06 = "254   "
+  let s:cterm01 = "254   "
+  let s:cterm02 = "246   "
+  let s:cterm04 = "242   "
+  let s:cterm06 = "235   "
   let s:cterm09 = "130   "
   let s:cterm0F = "95    "
 endif
@@ -83,57 +83,13 @@ fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
   endif
 endfun
 
-" Return GUI color for light/dark variants
+" Return GUI colorfor light/dark variants
 fun s:gui(color)
-  if &background == "dark"
-    return a:color
-  endif
-
-  if a:color == s:gui00
-    return s:gui07
-  elseif a:color == s:gui01
-    return s:gui06
-  elseif a:color == s:gui02
-    return s:gui05
-  elseif a:color == s:gui03
-    return s:gui04
-  elseif a:color == s:gui04
-    return s:gui03
-  elseif a:color == s:gui05
-    return s:gui02
-  elseif a:color == s:gui06
-    return s:gui01
-  elseif a:color == s:gui07
-    return s:gui00
-  endif
-
   return a:color
 endfun
 
-" Return terminal color for light/dark variants
+" Return terminal color
 fun s:cterm(color)
-  if &background == "dark"
-    return a:color
-  endif
-
-  if a:color == s:cterm00
-    return s:cterm07
-  elseif a:color == s:cterm01
-    return s:cterm06
-  elseif a:color == s:cterm02
-    return s:cterm05
-  elseif a:color == s:cterm03
-    return s:cterm04
-  elseif a:color == s:cterm04
-    return s:cterm03
-  elseif a:color == s:cterm05
-    return s:cterm02
-  elseif a:color == s:cterm06
-    return s:cterm01
-  elseif a:color == s:cterm07
-    return s:cterm00
-  endif
-
   return a:color
 endfun
 
@@ -335,7 +291,7 @@ call <sid>hi("SpellCap",     "", s:gui00, "", s:cterm00, "undercurl", s:gui0D)
 call <sid>hi("SpellRare",    "", s:gui00, "", s:cterm00, "undercurl", s:gui0E)
 
 " neovim terminal
-if has('nvim') 
+if has('nvim')
 hi! link TermCursor Cursor
 hi TermCursorNC ctermfg=240    ctermbg=30     guifg=s:gui02 guibg=s:gui0c guisp=NONE cterm=NONE gui=NONE
   let g:terminal_color_0  = "#" . s:gui07
